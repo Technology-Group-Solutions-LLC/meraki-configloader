@@ -1,0 +1,9 @@
+#Serial,PortNum,name,tags(currently not working),enabled,type,vlan,voiceVlan,allowedVlans,poeEnabled,IsolationEnabled,rstpEnabled,stpGuard,linkNegotiation,portScheduleID,udId,accessPolicyType,accessPolicyNumber,macAllowList,stickyMacAllowList,stickyMacAllowListLimit,stormControlEnabled
+Q2BX-3MW7-H3UQ,1,NAME101,,TRUE,Access,101,,,,,,,,,,,,,,,
+Q2BX-3MW7-H3UQ,2,NAME102,,TRUE,Access,102,,,,,,,,,,,,,,,
+Q2BX-3MW7-H3UQ,3,NAME103,,TRUE,Access,103,,,,,,,,,,,,,,,
+Q2BX-3MW7-H3UQ,4,NAME104,,TRUE,Access,104,,,,,,,,,,,,,,,
+Q2BX-3MW7-H3UQ,5,NAME105,,TRUE,Access,105,,,,,,,,,,,,,,,
+Q2BX-3MW7-H3UQ,6,NAME106,,TRUE,Access,106,,,,,,,,,,,,,,,
+Q2BX-3MW7-H3UQ,7,NAME107,,TRUE,Access,107,,,,,,,,,,,,,,,
+Q2BX-3MW7-H3UQ,8,NAME108,,TRUE,Access,108,,,,,,,,,,,,,,,
