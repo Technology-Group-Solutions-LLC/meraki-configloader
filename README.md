@@ -1,14 +1,10 @@
 # Meraki Configloader Overview
 
 The Meraki configloader is a tool written in golang with one specific purpose.  It will configure ports from a CSV input file, using the public meraki API.  It was created to get around limitations of the API and using postman, as JSON bodies need to be constructed without any null values.
-
-# [Download Binaries Here Eric](https://gitlab.com/tgs-employees/meraki-configloader/-/jobs/artifacts/main/download?job=build)
-
 ## Prerequisites
 
 Your machine needs to have golang installed to run the script.  This can be done using a package manager, or by downloading from the [GoLang website](https://golang.org/dl/).
 
-We are also building windows executables that will simplify running the tool, the latest build from the main branch [is accessible here](https://gitlab.com/tgs-employees/meraki-configloader/-/jobs/artifacts/main/download?job=build) that includes the readme, binary, and template file.
 
 You need to create an API key for your Meraki environmnent.  This can be done from the "My Profile" user context of the [Meraki Portal](https://account.meraki.com/secure/login/dashboard_login).
 
@@ -37,4 +33,4 @@ You will be prompted for input file (w/default), API target (w/default), and API
 Adding -h will show you command line options.
 Adding -debug instead will run the program in debug mode. It will only print the lines it would send to the API instead of actually sending them. This is useful for checking to make sure the CSV is being read properly and is formated correctly.
 ## Contributing
-Merge requests are welcome; we ask that at least one peer approval is given prior to merging to the primary branch. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome!  For major changes, please open an issue first to discuss what you would like to change.  We're open to any changes that would make the contribution process easier.
