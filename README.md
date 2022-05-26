@@ -32,5 +32,11 @@ You will be prompted for input file (w/default), API target (w/default), and API
 
 Adding -h will show you command line options.
 Adding -debug instead will run the program in debug mode. It will only print the lines it would send to the API instead of actually sending them. This is useful for checking to make sure the CSV is being read properly and is formated correctly.
+
+## References
+For other functionality / tools in the Meraki space, here are a few that you may find useful shared on the Cisco Code Exchange:
+[Catalyst 2 Meraki Config Checker](https://developer.cisco.com/codeexchange/github/repo/fadysharobeem/Catalyst_2_Meraki_Config_Checker/)
+[Meraki Config Manager](https://developer.cisco.com/codeexchange/github/repo/gve-sw/meraki-config-manager)
+
 ## Contributing
 Pull requests are welcome!  For major changes, please open an issue first to discuss what you would like to change.  We're open to any changes that would make the contribution process easier.
